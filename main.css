@@ -1,0 +1,11 @@
+.section_one, .section_two {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 160px;
+}
+
+.header_links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
