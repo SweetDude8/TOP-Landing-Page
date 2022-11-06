@@ -54,3 +54,31 @@ body {
     width: 800px;
     height: 400px;
 }
+
+.section_three {
+    padding-bottom: 80px;
+}
+
+.section_three h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0px;;
+}
+
+.section_three_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.box {
+    width: 220px;
+    height: 220px;
+    border: 6px solid rgb(44, 44, 192);
+    border-radius: 20px;
+}
+
+.subtext {
+    max-width: 220px;
+}
