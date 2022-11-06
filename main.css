@@ -1,11 +1,53 @@
+body {
+    margin: 0;
+}
+
 .section_one, .section_two {
     display: flex;
     justify-content: space-between;
-    padding: 0px 160px;
+    padding: 0px 300px;
+    background-color: #182f42;
+    color: white;
 }
 
 .header_links {
     display: flex;
     list-style-type: none;
     gap: 20px;
+    font-size: 20px;
+}
+
+.section_two {
+    padding-bottom: 170px;
+    padding-top: 170px;
+}
+
+.info_text, .section_two img {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.info_text h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.info_text p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.info_text button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(56, 56, 201);
+    color:white;
+    padding: 10px 35px;
+    margin-top: 20px; 
+    font-size: 20px;
+}
+
+.section_two img {
+    border-radius: 10px;
 }
